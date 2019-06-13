@@ -1,0 +1,35 @@
+{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:3000/",
+      "sslPort": 0
+    }
+  },
+  "profiles": {
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "OAUTH_DATABASE": "mongodb+srv://appuser:hello99@cluster0-jvl34.mongodb.net/inventor2revit?retryWrites=true",
+        "FORGE_CALLBACK_URL": "http://localhost:3000/api/forge/callback/oauth",
+        "FORGE_CLIENT_SECRET": "008abGHz8rXrTjhl",
+        "ASPNETCORE_URLS": "http://localhost:3000",
+        "FORGE_CLIENT_ID": "IO69qRFbNd4iUqigKqgGlsDGsJMsASAc",
+        "AWS_ACCESS_KEY": "AKIAVNREAH37OK53T42G",
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "FORGE_WEBHOOK_URL": "http://71d57881.ngrok.io",
+        "AWS_SECRET_KEY": "HO5Ozudpa/giCwM0WotYPeBR9dio4NVwJeUYNf0y"
+      }
+    },
+    "Web": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "http://localhost:3000/"
+    }
+  }
+}
